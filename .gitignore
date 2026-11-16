@@ -1,0 +1,4 @@
+.grok/
+out/
+node_modules/
+*.log
