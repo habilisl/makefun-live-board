@@ -1,0 +1,5 @@
+.grok/
+.playwright-mcp/
+out/
+node_modules/
+*.log

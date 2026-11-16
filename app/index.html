@@ -3,12 +3,23 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>make.fun bounties</title>
-<link rel="stylesheet" href="style.css">
-<script type="module" src="main.js"></script>
+<meta name="color-scheme" content="dark">
+<title>Live board · make.fun</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect fill='%23ffb11a' width='16' height='16' rx='3'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="/app.css">
+<script>window.__shotReady=false</script>
 </head>
 <body>
-<header><a href="#/">make.fun bounties</a></header>
-<main id="app"></main>
+<a class="skip" href="#view">Skip to content</a>
+<header>
+  <a class="mark" href="#/"><b>LIVE</b> BOARD</a>
+  <p class="tag">make.fun bounties</p>
+  <nav><a href="#/" id="nav-board">Board</a></nav>
+  <p class="clock" id="clock">— UTC</p>
+</header>
+<main id="view">
+  <noscript><p class="err">Turn on JavaScript to load live bounties from make.fun.</p></noscript>
+</main>
+<script type="module" src="/app.js"></script>
 </body>
 </html>
